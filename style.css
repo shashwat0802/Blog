@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Average&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0C0935;
+    font-family: 'Average', serif;
+}
+
+nav {
+    font-family: 'Inter', sans-serif;
+}
+
+.search-container {
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #D9D9D9;
+    border-radius: 60px;
+    opacity: 0.2;
+}
+
+input[type=text]::placeholder {
+    color: #fff;
+}
+
+button[type=submit] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button[type=submit] i {
+    font-size: 18px;
+    color: #ccc;
+}
+
+button[type=submit]:hover i {
+    color: #fff;
+}
+
+.rainbow {
+    left: 15%;
+}
+
+.eclipse-1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 129px;
+    height: 44px;
+    z-index: -1;
+    background: #07CCE7;
+    opacity: 0.6;
+    filter: blur(52px);
+    border-radius: 70px;
+}
+
+.eclipse-2 {
+    width: 640px;
+    height: 640px;
+    top: 20%;
+    z-index: -1;
+    background: #03D0E7;
+    opacity: 0.7;
+    filter: blur(347px);
+}
+
+.eclipse-3 {
+    width: 640px;
+    height: 640px;
+    background: #B70CDA;
+    opacity: 0.7;
+    filter: blur(347px);
+    top: 75%;
+    z-index: -1;
+}
+
+.bitcoin-wrapper{
+background: rgba(255, 255, 255, 0.01);
+backdrop-filter: blur(127px);
+border-radius: 10px;
+}
+
+.custom-list{
+    list-style-image: url('./img/list-style.png');
+}
+
+.section-3{
+    background: rgba(184, 12, 219, 0.1);
+backdrop-filter: blur(127px);
+}
+
+.eclipse-4{
+    width: 640px;
+height: 640px;
+z-index: -1;
+background: #D80D7A;
+opacity: 0.7;
+filter: blur(347px);
+top: -40%;
+left: -20%;
+}

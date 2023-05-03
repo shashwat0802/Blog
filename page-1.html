@@ -1,14 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+  <!-- navbar -->
+  <nav class="flex justify-between items-center mx-auto md:pt-4 container absolute inset-x-0 top-0">
+    <div class="">
+      <a href="#section-1">
+        <h1 class="text-white text-2xl">Logo Here</h1>
+      </a>
+    </div>
+    <div class="px-4 py-2 search-container">
+      <input type="text" placeholder="Search" class="bg-transparent">
+      <button type="submit"><i class="fa fa-search text-white"></i></button>
+    </div>
+    <div
+      class="nav-links duration-500 lg:static absolute lg:min-h-fit min-h-[100vh] top-[5%] left-[-100%] lg:w-auto w-full flex items-center md:px-5">
+      <ul
+        class="flex lg:flex-row flex-col lg:items-center lg:gap-[4vw] gap-8 font-semibold bg-white md:bg-transparent h-[85vh] md:h-full px-8 py-4 ">
+        <li>
+          <a class="text-white text-base font-light  " href="#section-2">
+            Books
+          </a>
+        </li>
+        <li>
+          <a class="text-white text-base font-light  " href="#swap-section">
+            Tags
+          </a>
+        </li>
+        <li>
+          <a class="text-white text-base font-light  " href="#ido-section">
+            Archieve
+          </a>
+        </li>
+        <li>
+          <a class="text-[#0D1440] text-base font-normal bg-[#07CCE7] rounded-[70px] px-4 py-2" href="#">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- main banner -->
+  <section class="container mx-auto h-screen flex items-center border-b border-[#07CCE733]">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-24">
+      <div class="relative">
+        <img src="./img/rainbow.png" alt="" class="absolute rainbow">
+        <h1 class="text-white text-8xl">History of
+          Bitcoin</h1>
+        <p class="text-white text-xl my-12">Nam finibus dolor sed metus feugiat, hendrerit elementum felis venenatis.
+          Curabitur at odio pellentesque, laoreet libero nec, volutpat turpis.</p>
+        <button
+          class="text-[#0D1440] text-base font-normal bg-[#07CCE7] rounded-[70px] px-4 py-2 font-['Inter'] relative">
+          Read more
+          <div class="absolute eclipse-1"></div>
+        </button>
+      </div>
+      <div class="relative">
+        <img src="./img/Coins-2.png" alt="">
+        <div class="absolute eclipse-2"></div>
+        <div class="absolute eclipse-3"></div>
+      </div>
+    </div>
+  </section>
+  <!-- section-2  -->
+  <section class="container mx-auto">
+    <div class="flex justify-center">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-24 my-8">
+        <img src="./img/company-1.png" alt="">
+        <img src="./img/company-2.png" alt="">
+        <img src="./img/company-3.png" alt="">
+        <img src="./img/company-4.png" alt="">
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div class="bitcoin-wrapper flex items-center justify-center">
+        <img src="./img/bitcoin-2.png" alt="">
+      </div>
+      <div class="text-white font-normal flex flex-col justify-center p-8">
+        <h1 class="text-4xl">Smart Wallet </h1>
+        <h1 class="text-4xl my-4">For Smart Money</h1>
+        <p class="text-xl my-12">Nullam at ligula turpis. Aliquam erat volutpat. Ut ac lacinia tellus. Sed mollis sem id
+          dolor volutpat auctor. Nam id mauris ac metus ultricies aliquam. Etiam blandit interdum lacus, et volutpat
+          orci euismod a</p>
+        <ul class="custom-list ml-6">
+          <li class="my-6">Nam id mauris ac metus ultricies aliquam. Etiam blandit interdum lacus.</li>
+          <li class="my-6">Vestibulum nulla eros, pellentesque ut mauris non, iaculis feugiat tortor. Ut sodales metus
+            tellus.</li>
+          <li class="my-6">Quisque ac nisl arcu. Proin vel aliquam tellus, a imperdiet erat. Nullam euismod blandit
+            consectetur.</li>
+          <li class="my-6">Praesent eu dolor imperdiet, dictum enim sit amet, ornare arcu. Cras eget urna risus. </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- section-3  -->
+  <section class="section-3 relative p-8 my-20">
+    <div class="eclipse-4 absolute"></div>
+    <div class="container mx-auto text-white">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-24">
+        <div class="flex flex-col justify-center">
+          <h1 class="text-4xl">The Perfect Solution</h1>
+          <p class="my-10">In porta lectus vel rutrum rhoncus. Praesent augue arcu, sollicitudin sit amet consectetur id, porttitor
+            hendrerit sem. Curabitur nec euismod ex. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. Maecenas tempus ornare neque, eu auctor neque feugiat quis. Donec id
+            justo sit amet massa faucibus molestie. Mauris at neque vel arcu consectetur laoreet sed in nisl.</p>
+          <p>Maecenas tempus ornare neque, eu auctor neque feugiat quis. Donec id justo sit amet massa faucibus
+            molestie.</p>
+          <button
+            class="text-[#0D1440] text-base font-normal bg-[#07CCE7] rounded-[70px] px-4 py-2 font-['Inter'] relative self-start my-8">
+            Read more
+            <div class="absolute eclipse-1"></div>
+          </button>
+        </div>
+        <div class="flex justify-center">
+          <img src="./img/solution.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section-4 -->
+  <section>
     
+  </section>
 </body>
+
 </html>
