@@ -11,8 +11,61 @@ body {
     font-family: 'Average', serif;
 }
 
-nav {
-    font-family: 'Inter', sans-serif;
+.text-white{
+    color: #fff;
+}
+.nav {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter' , sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1280px;
+    margin: 1rem auto;
+    padding: 0 0.25rem;
+}
+
+.nav>.nav-header {
+    padding-left: 1rem;
+}
+
+.nav>.nav-header>.nav-title {
+    font-size: 30px;
+    color: #fff;
+}
+
+.nav>.nav-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav>.nav-list>li {
+    list-style-type: none;
+}
+
+.nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+}
+
+.nav>#nav-check {
+    display: none;
+}
+.primary-btn{
+    border-radius: 70px;
+    background: #07CCE7;
+    font-size: 1rem;
+    color:#0D1440 !important;
+    padding: 0.5rem 1rem ;
+    font-weight: 400;
 }
 
 .search-container {
@@ -20,10 +73,17 @@ nav {
     border: 1px solid #D9D9D9;
     border-radius: 60px;
     opacity: 0.2;
+    padding: 0.5rem 1rem;
+}
+
+input[type=text] {
+    background: transparent;
+    border: 0;
 }
 
 input[type=text]::placeholder {
     color: #fff;
+    font-family: 'Inter' , sans-serif;
 }
 
 button[type=submit] {
