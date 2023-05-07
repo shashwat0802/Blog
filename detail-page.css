@@ -85,14 +85,15 @@ body {
     border: 1px solid #D9D9D9;
     border-radius: 60px;
     opacity: 0.2;
-    padding: 0.5rem 1rem;
-    flex-shrink: 4;
+    padding: 0.5rem;
+    display: flex;
+    width: 100%;
+    max-width: 200px;
 }
 
 input[type=text] {
     background: transparent;
     border: 0;
-    width: 90%;
 }
 
 input[type=text]::placeholder {

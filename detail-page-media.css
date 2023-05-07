@@ -50,7 +50,7 @@
     }
 
     .search-container{
-        display: none;
+        display: none !important;
     }
 
     .grid{
@@ -75,5 +75,12 @@
 
     .link-wrapper{
         justify-content: start !important;
+    }
+
+    #main-banner h1 {
+        font-size: 2rem !important;
+        color: #fff;
+        font-weight: 400;
+        margin: 1rem 0;
     }
 }
