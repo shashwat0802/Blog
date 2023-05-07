@@ -220,18 +220,18 @@ p span {
 }
 
 .eclipse-2{
-    /* width: 550px;
-    height: 500px; */
+    width: 400px;
+    height: 400px;
     border-radius: 50px 50px 0 0;
     background: #B70CDA;
     opacity: 0.7;
-    filter: blur(200px);
+    filter: blur(150px);
     z-index: -1;
     position: absolute;
     border-bottom: none;
     transform: rotate(90deg);
     left: 0px;
-    top: 0px;
+    top: -150px;
 }
 
 .eclipse-3{
@@ -258,6 +258,21 @@ p span {
     filter: blur(250px);
     z-index: -1;
     position: absolute;
+}
+
+.eclipse-6{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px 50px 0 0;
+    background: #03D0E7;
+    opacity: 0.7;
+    filter: blur(150px);
+    z-index: -1;
+    position: absolute;
+    border-bottom: none;
+    transform: rotate(90deg);
+    left: 0px;
+    top: -50px;
 }
 
 .general{
