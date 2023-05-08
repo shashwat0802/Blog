@@ -7,7 +7,7 @@
 
     .nav>.nav-btn {
         display: inline-block;
-        position: absolute;
+        /* position: absolute; */
         right: 0;
         top: 0;
         padding-top: 0.2rem;
@@ -36,9 +36,10 @@
         background-color: #0C0935;
         height: 0;
         transition: all 0.3s ease-in;
-        top: 40px;
+        top: 100px;
         left: 0;
         overflow: hidden;
+        z-index: 2;
     }
 
     .nav>.nav-list>li {
@@ -57,6 +58,7 @@
 
     .banner-section{
         margin-top: 1rem;
+        height: auto;
     }
 
     .banner-content-wrapper{
@@ -109,5 +111,25 @@
 
     .banner-content-wrapper div p {
         font-size: 1rem;
+    }
+
+    .form-wrapper {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        padding: 1rem 0;
+        display: grid;
+    }
+
+    .search-container-2{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .custom-input{
+        width: 100%;
+    padding: 0.5rem 1rem;
+    }
+
+    .primary-btn-2 {
+       margin: 0.5rem auto;
     }
 }
