@@ -10,6 +10,7 @@
 html {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -230,8 +231,8 @@ p span {
     position: absolute;
     border-bottom: none;
     transform: rotate(90deg);
-    left: 0px;
-    top: -150px;
+    left: -250px;
+    top: -200px;
 }
 
 .eclipse-3{
@@ -244,8 +245,8 @@ p span {
     position: absolute;
     border-bottom: none;
     transform: rotate(-90deg);
-    right: 0px;
-    top: -50px;
+    right: -250px;
+    top: -100px;
 }
 
 .eclipse-4 {
@@ -271,7 +272,7 @@ p span {
     position: absolute;
     border-bottom: none;
     transform: rotate(90deg);
-    left: 0px;
+    left: -300px;
     top: -50px;
 }
 
@@ -516,16 +517,17 @@ cursor: pointer;
 }
 
 .eclipse-5{
-    width: 50px;
-    height: 400px;
+    width: 250px;
+    height: 200px;
     border-radius: 50px 50px 0 0;
     background: #B70CDA;
-    filter: blur(150px);
+    filter: blur(120px);
     z-index: -1;
     position: absolute;
     border-bottom: none;
-    right: 0px;
-    top: 0;
+    transform: rotate(-90deg);
+    right: -200px;
+    top: -100px;
 }
 
 .article-card img{
