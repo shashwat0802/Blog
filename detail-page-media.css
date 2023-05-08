@@ -5,7 +5,7 @@
 
     .nav>.nav-btn {
         display: inline-block;
-        position: absolute;
+        /* position: absolute; */
         right: 0;
         top: 0;
         padding-top: 0.2rem;
@@ -34,9 +34,10 @@
         background-color: #0C0935;
         height: 0;
         transition: all 0.3s ease-in;
-        top: 40px;
+        top: 100px;
         left: 0;
         overflow: hidden;
+        z-index: 2;
     }
 
     .nav>.nav-list>li {
@@ -82,5 +83,9 @@
         color: #fff;
         font-weight: 400;
         margin: 1rem 0;
+    }
+
+    #main-banner {
+        height: auto !important;
     }
 }
